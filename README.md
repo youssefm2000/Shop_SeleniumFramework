@@ -4,6 +4,7 @@
  - TestNG
  - PoM
  - Allure Report
+ - Data Driven To read data from JSON files 
  - Log4j
  - Cucumber 
  - Chrome Headless 
