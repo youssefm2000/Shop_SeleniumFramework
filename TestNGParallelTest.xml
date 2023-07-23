@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Shop Suite">
+    <parameter name="browser" value="chrome"/>
+
+    <test thread-count="5" name="Login Test">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Home For Zara product">
+        <classes>
+            <class name="tests.HomeForZaraTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Home For Product of Zara">
+        <classes>
+            <class name="tests.ProductZaraTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Home For IPhone product">
+        <classes>
+            <class name="tests.HomeForIPoneTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Product For IPhone Test">
+        <classes>
+            <class name="tests.ProductIPhone13Test"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Cart Of Productions ">
+        <classes>
+            <class name="tests.CartTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Payment of Productions">
+        <classes>
+            <class name="tests.PaymentTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Congratulation For Buy Product From Their Website">
+        <classes>
+            <class name="tests.SubmitOrderTest"/>
+        </classes>
+    </test>
+</suite>
